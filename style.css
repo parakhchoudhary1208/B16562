@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body 
+{
+    
+    height: 100%;
+    width: 100%;
+}
+
+#main 
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#main #circle{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    border: 0.3px solid rgba(255, 255, 255, 0.303);
+}
+
+#main #circle h5
+{
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.474);
+}
+
+#main #circle:hover
+{
+    background-color: rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+
+#main #line
+{
+   position: absolute;
+   top: 70%;
+   width: 100%;
+   height: 6%;
+   background-color: rgba(238, 236, 236, 0.022);
+   border: 0.2px solid rgba(255, 255, 255, 0.357);
+   border-left: none;
+   border-right: none;
+}
+
+#main #line #one
+{
+    font-family: Gilroy;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.645);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0,-50%);
+}
+
+#main #line #two
+{
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translate(0,-50%);
+    font-family: Gilroy;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.755);
+}
+
+#main #line:hover
+{
+    background-color: rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+
+#left
+{
+    height: 100%;
+    width: 30%;
+}
+
+#text
+{
+    position: absolute;
+    left: 5%;
+    top: 19%;
+}
+
+#text h1
+{
+    text-orientation: sideways;
+    color: rgba(255, 255, 255, 0.809);
+    font-size: 45px;
+    font-family: Gilroy;
+    letter-spacing: 1px;
+}
+
+#text #red:hover
+{
+   -webkit-text-stroke-color: white; 
+   -webkit-text-stroke-width: 1.9px;
+   -webkit-text-fill-color: transparent;
+   cursor: pointer;
+}
+
+#text #span:hover
+{
+   -webkit-text-stroke-color: rgb(230, 60, 60); 
+   -webkit-text-stroke-width: 1.9px;
+   -webkit-text-fill-color: transparent;
+   cursor: pointer;
+}
+
+#left #name #up
+{
+    color: rgb(230, 60, 60);
+}
+
+#left #name 
+{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.809);
+    font-size:22px;
+    font-family: Gilroy;
+    top: 80%;
+    left: 3%;
+}
+
+#left #leftup a
+{
+    font-size: 20px;
+    font-family: Gilroy;
+    color: rgba(255, 255, 255, 0.809);
+    position: absolute;
+    top: 3%;
+    left: 3.5%;
+}
+    
+#center
+{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1538188518745-f487b988c523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHRvdXJpc3R8ZW58MHx8MHxibGFja3w%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#center #midname h1
+{
+    font-size: 45px;
+    position: absolute;
+    font-optical-sizing: initial;
+    font-family: Gilroy;
+    color: rgba(255, 255, 255, 0.809);
+    top: 87%;
+    left: 30%;
+}
+
+#center #midupname h4
+{
+    font-size: 20px;
+    font-family: Gilroy;
+    color: rgba(255, 255, 255, 0.809);
+    position: absolute;
+    top: 3%;
+    left: 32%;
+}
+
+#center #midupname a
+{
+    color: rgba(255, 255, 255, 0.809);
+}
+
+#right
+{
+    height: 100%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1606821355187-de2a1c822bf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGluZGlhbiUyMHRvdXJpc3R8ZW58MHx8MHxibGFja3w%3D&auto=format&fit=crop&w=800&q=60);
+    background-position: center;
+    background-size: cover;
+}
+
+#right #rtname h4
+{
+    font-size: 20px;
+    font-family: Gilroy;
+    position: absolute;
+    top: 3%;
+    left: 82%;
+}
+
+#right #rtname a
+{
+    color: rgba(255, 255, 255, 0.809);
+}
+
+#right #rtop
+{
+    width: 100%;
+    height: 80%;
+}
+
+#right #rbot
+{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+#right #rbot:hover
+{
+   
+    background-color: white;
+    -webkit-text-fill-color: black;
+    cursor: pointer;
+}
+
+
+#right #rbot h1
+{
+    
+    font-size: 45px;
+    font-family: Gilroy;
+    color: rgba(255, 255, 255, 0.809);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
